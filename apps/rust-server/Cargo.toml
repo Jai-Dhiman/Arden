@@ -13,12 +13,17 @@ serde_json = "1.0"
 chrono = { version = "0.4", features = ["serde"] }
 console_error_panic_hook = "0.1.7"
 async-trait = "0.1.50"
-gloo-utils = "0.1.6"
-js-sys = "0.3.58"
-worker-sys = "0.0.15"
+# gloo-utils = "0.1.6" # Not directly used in current code, can be removed if not needed elsewhere
+# js-sys = "0.3.58" # Transitive dep of worker?
+# worker-sys = "0.0.15" # Transitive dep of worker?
 wasm-bindgen = "0.2.84"
 cfg-if = "1.0.0"
-futures-util = "0.3.28"
+# futures-util = "0.3.28" # Transitive dep of worker?
+
+# For UUID generation
+uuid = { version = "1.6.1", features = ["v4", "serde"] }
+getrandom = { version = "0.2", features = ["js"] }
+
 
 [profile.release]
 lto = true
