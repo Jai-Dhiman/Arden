@@ -5,3 +5,4 @@ pub mod todos;
 pub mod notes;
 pub mod goals;
 pub mod chat;
+pub mod utils;
