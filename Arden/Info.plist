@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>This app uses speech recognition to understand your voice commands for offline assistant functionality.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>This app needs microphone access to listen to your voice commands.</string>
+    <key>NSCalendarsUsageDescription</key>
+    <string>This app needs calendar access to create and manage events for you.</string>
+    <key>NSRemindersUsageDescription</key>
+    <string>This app needs reminders access to create and manage reminders for you.</string>
+    <key>NSContactsUsageDescription</key>
+    <string>This app needs contacts access to help you message or call people.</string>
+    <key>NSCameraUsageDescription</key>
+    <string>This app can open the camera when you ask.</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>This app can save photos when you take pictures via voice commands.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>This app uses your location to provide weather information.</string>
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>audio</string>
+    </array>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <false/>
+    </dict>
+</dict>
+</plist>
